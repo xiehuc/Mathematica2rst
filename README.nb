@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      2501,         92]
-NotebookOptionsPosition[      1989,         68]
-NotebookOutlinePosition[      2324,         83]
-CellTagsIndexPosition[      2281,         80]
+NotebookDataLength[      2558,         93]
+NotebookOptionsPosition[      2046,         69]
+NotebookOutlinePosition[      2381,         84]
+CellTagsIndexPosition[      2338,         81]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -33,12 +33,13 @@ Cell["Quick Install", "Chapter",
   3.621416053977415*^9, 3.621416057845581*^9}}],
 
 Cell[TextData[{
- "Copy Export.m and Converter.m to ~/.",
+ "Copy ``Export.m`` and ``Converter.m`` to ~/.",
  StyleBox["Mathematica",
   FontSlant->"Italic"],
  "/SystemFiles/Formats/RST"
 }], "Text",
- CellChangeTimes->{{3.621415986183168*^9, 3.6214160497884073`*^9}}]
+ CellChangeTimes->{{3.621415986183168*^9, 3.6214160497884073`*^9}, {
+  3.621416631402618*^9, 3.621416645257476*^9}}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -87,11 +88,11 @@ Cell[580, 22, 74, 1, 96, "Title"],
 Cell[657, 25, 112, 1, 30, "Text"],
 Cell[CellGroupData[{
 Cell[794, 30, 149, 2, 69, "Chapter"],
-Cell[946, 34, 213, 6, 31, "Text"]
+Cell[946, 34, 270, 7, 31, "Text"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1196, 45, 94, 1, 69, "Chapter"],
-Cell[1293, 48, 668, 16, 77, "Input"]
+Cell[1253, 46, 94, 1, 69, "Chapter"],
+Cell[1350, 49, 668, 16, 77, "Input"]
 }, Open  ]]
 }, Open  ]]
 }
