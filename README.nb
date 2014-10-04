@@ -1,0 +1,101 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2501,         92]
+NotebookOptionsPosition[      1989,         68]
+NotebookOutlinePosition[      2324,         83]
+CellTagsIndexPosition[      2281,         80]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Mathematica2rst", "Title",
+ CellChangeTimes->{3.621413674021901*^9}],
+
+Cell["convert Mathematica notebook to reStructureText format", "Text",
+ CellChangeTimes->{3.621413687198434*^9}],
+
+Cell[CellGroupData[{
+
+Cell["Quick Install", "Chapter",
+ CellChangeTimes->{{3.621415980501461*^9, 3.6214159826302958`*^9}, {
+  3.621416053977415*^9, 3.621416057845581*^9}}],
+
+Cell[TextData[{
+ "Copy Export.m and Converter.m to ~/.",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ "/SystemFiles/Formats/RST"
+}], "Text",
+ CellChangeTimes->{{3.621415986183168*^9, 3.6214160497884073`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Example", "Chapter",
+ CellChangeTimes->{{3.6214160681062317`*^9, 3.621416079825794*^9}}],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"SetDirectory", "[", 
+   RowBox[{"NotebookDirectory", "[", "]"}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"notebook", "=", 
+   RowBox[{"Import", "[", "\"\<README.nb\>\"", "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Export", "[", 
+   RowBox[{"\"\<README.rst\>\"", ",", "notebook", ",", "\"\<RST\>\""}], "]"}],
+   ";"}]}], "Input",
+ CellChangeTimes->{{3.621413697965664*^9, 3.621413731339574*^9}, {
+  3.621413763162334*^9, 3.621413856628294*^9}, {3.621413916652163*^9, 
+  3.621413931290224*^9}, {3.621414369726671*^9, 3.6214143744543333`*^9}, {
+  3.621414490952973*^9, 3.6214145109892883`*^9}}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{808, 594},
+WindowMargins->{{Automatic, 137}, {15, Automatic}},
+FrontEndVersion->"10.0 for Linux x86 (64-bit) (June 27, 2014)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 74, 1, 96, "Title"],
+Cell[657, 25, 112, 1, 30, "Text"],
+Cell[CellGroupData[{
+Cell[794, 30, 149, 2, 69, "Chapter"],
+Cell[946, 34, 213, 6, 31, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1196, 45, 94, 1, 69, "Chapter"],
+Cell[1293, 48, 668, 16, 77, "Input"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
